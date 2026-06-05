@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Allow: /products
+Allow: /services
+Allow: /profile
+Allow: /enquiry
+
+Disallow: /admin
+Disallow: /api
+
+Sitemap: https://businesshub.vercel.app/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
